@@ -31,4 +31,7 @@ rule construct_genome_alignment:
     run:
         # cat alignments together
     # Construct full genome alignment with coordinate file
+    # log output
+
+
 

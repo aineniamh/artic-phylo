@@ -1,6 +1,6 @@
 rule initial_check:
-    input:
     output:
+        
     shell:
         #Looks for new sequences in consensus folder. 
         #Check for duplicates, mislabelled.:

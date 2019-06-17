@@ -8,7 +8,7 @@ run_name = str(config["run_name"])
 
 rule all:
     input:
-        expand("pipeline_output/consensus_genomes/{barcode}.fasta",barcode=config["barcodes"])
+        expand("phylo_output/{barcode}.fasta",barcode=config["barcodes"])
 
 ##### Modules #####
 include: "rules/gather.smk"

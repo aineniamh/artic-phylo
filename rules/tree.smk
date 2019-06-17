@@ -9,3 +9,8 @@ rule root_to_tip:
     input:
     output:
     shell:
+
+rule treetime:
+    input:
+    output:
+    shell:

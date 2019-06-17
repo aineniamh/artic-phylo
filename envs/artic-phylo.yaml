@@ -1,0 +1,17 @@
+name: artic-phylo
+channels:
+  - bioconda
+  - etetoolkit
+  - conda-forge
+  - defaults
+dependencies:
+  - bcftools=1.9
+  - bedtools=2.27.1
+  - biopython=1.73
+  - blast=2.7.1
+  - iqtree=1.6.10
+  - mafft=7.407=1
+  - minimap2=2.16
+  - pip=19.1
+  - snakemake=5.4.3
+
